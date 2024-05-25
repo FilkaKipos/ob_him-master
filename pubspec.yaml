@@ -1,0 +1,41 @@
+name: my_flutter_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  leak_tracker: ^10.0.4
+  leak_tracker_flutter_testing: ^3.0.3
+  material_color_utilities: ^0.8.0
+  meta: ^1.12.0
+  test_api: 0.7.0  # Используем версию 0.7.0, совместимую с flutter_test
+  vm_service: 14.2.1  # Используем версию 14.2.1, совместимую с flutter_test
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/p1.png
+    - assets/img/p2.png
+    - assets/img/p3.png
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
